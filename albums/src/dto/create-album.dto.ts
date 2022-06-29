@@ -1,4 +1,4 @@
-import { IsNumber, IsOptional, IsString } from 'class-validator';
+import { IsArray, IsNumber, IsOptional, IsString } from 'class-validator';
 
 export class CreateAlbumDto {
     @IsString()
@@ -8,19 +8,19 @@ export class CreateAlbumDto {
     @IsOptional()
     released: string;
 
-    @IsString()
+    @IsArray()
     @IsOptional()
     artistsIds: string[];
 
+    @IsArray()
     @IsOptional()
     bandsIds: string[];
 
+    @IsArray()
     @IsOptional()
     trackIds: string[];
 
+    @IsArray()
     @IsOptional()
     genresIds: string[];
-
-    @IsOptional()
-    image: Buffer;
 }

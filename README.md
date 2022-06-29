@@ -34,8 +34,14 @@ This application caontains multiple services that are used to serve for Musicify
    # separately for each service form the rood directory
    npm run run:%serviceName%
 
-   # all services
+   # all services watch+debug
+   npm run run:all:dev
+   
+   # all services watch
    npm run run:all
+   
+   # all services prod mode
+   npm run run:all:prod
    ```
 
 ## Mongo

@@ -19,8 +19,7 @@ export class UpdateTrackDto {
 
     @IsInt()
     @IsOptional()
-    duration;
-    number;
+    duration: number;
 
     @IsInt()
     @IsOptional()

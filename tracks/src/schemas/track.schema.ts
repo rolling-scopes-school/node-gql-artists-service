@@ -8,7 +8,7 @@ export class Track {
     @Prop({ required: true })
     title: string;
 
-    @Prop({ required: true })
+    @Prop()
     albumId: string;
 
     @Prop()

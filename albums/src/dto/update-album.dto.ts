@@ -24,8 +24,4 @@ export class UpdateAlbumDto {
     @IsArray()
     @IsOptional()
     genresIds: string[];
-
-    @IsArray()
-    @IsOptional()
-    image: Buffer;
 }

@@ -17,11 +17,14 @@ export class CreateTrackDto {
     artistsIds: string[];
 
     @IsInt()
+    @IsOptional()
     duration: number;
 
     @IsInt()
+    @IsOptional()
     released: number;
 
     @IsArray()
+    @IsOptional()
     genresIds: string[];
 }
