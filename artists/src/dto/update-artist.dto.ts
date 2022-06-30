@@ -27,7 +27,7 @@ export class UpdateArtistDto {
 
     @IsOptional()
     @IsArray()
-    bands: string[];
+    bandsIds: string[];
 
     @IsOptional()
     @IsArray()

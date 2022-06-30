@@ -24,7 +24,7 @@ export class Artist {
     country: string;
 
     @Prop()
-    bands: string[];
+    bandsIds: string[];
 
     @Prop()
     instruments: string[];

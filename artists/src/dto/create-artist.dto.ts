@@ -25,7 +25,7 @@ export class CreateArtistDto {
 
     @IsOptional()
     @IsArray()
-    bands: string[];
+    bandsIds: string[];
 
     @IsOptional()
     @IsArray()

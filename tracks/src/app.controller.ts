@@ -51,7 +51,7 @@ export class AppController {
     @Put(':id')
     @UseGuards(AuthGuard)
     update(
-        @Param(':id') id: string,
+        @Param('id') id: string,
         @Body() updateTrackDto: UpdateTrackDto,
     ): Promise<Track> {
         return this.tracksService.update(id, updateTrackDto);
