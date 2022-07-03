@@ -36,3 +36,6 @@ coverage/
 !.vscode/extensions.json
 
 **/.env
+
+package-lock.json
+yarn.lock
