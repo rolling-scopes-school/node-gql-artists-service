@@ -1,6 +1,6 @@
 # Musicify microservices
 
-This application caontains multiple services that are used to serve for Musicify App. The follwing microservices exists:
+This application caontains multiple services that are used to serve for Musicify App. The follwing microservices exist:
 
 - Albums
 - Bands
@@ -20,7 +20,7 @@ This application caontains multiple services that are used to serve for Musicify
    # separately in each service folder
    npm i
    
-   # separately for each service form the rood directory
+   # separately for each service from the root directory
    npm run install:%serviceName%
    
    # for all services (install dependencies for root folder and it will install nested dependencies in postinstall script)
@@ -31,7 +31,7 @@ This application caontains multiple services that are used to serve for Musicify
    # separately in each service folder
    npm run:start:dev
 
-   # separately for each service form the rood directory
+   # separately for each service from the root directory
    npm run run:%serviceName%
 
    # all services watch+debug
@@ -46,7 +46,6 @@ This application caontains multiple services that are used to serve for Musicify
 
 ## Mongo
 
-The application is using MongoDB as a database. Feel free to choose any solution for it, however it's highle recommended to use Docker and the official image for it.
+The application is using MongoDB as a database. Feel free to choose any solution for it, however it's highly recommended to use Docker and the official image for it.
 
 [Docker MongoDB](https://hub.docker.com/_/mongo)
-
